@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Calculadora - IMC</h1>
+            <hr>
+        </header>
+        <aside>
+            <p>
+                <label>
+                    <!--pra que serve tantos códigos? se a vida não é programada e as melhores coisas não tem lógica
+                    by:Paulo Renato-->
+                    <p>Nome:</p> <input type="text" id="nome" placeholder="Digite seu nome">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <p>Altura:</p> <input type="number" id="altura" placeholder="Digite sua altura em metros(ex:1.80)">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <p>Peso:</p> <input type="number" id="peso" placeholder="Digite seu peso em kg(ex:80)">
+                </label>
+            </p>
+            <input type="button" value="Calcular" id="button" onclick="calcularImc()">
+            <div id="res"></div>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
